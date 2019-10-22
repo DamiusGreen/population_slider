@@ -1,0 +1,88 @@
+﻿
+<!DOCTYPE html>
+<html class= "img-fluid max-width: 100%;">
+<head>
+    <title>City Population Slider</title>
+  <meta charset="utf-8" />
+  <meta name = "viewport" content = "width = device - width, initial - scale = 1, maximum-scale=1" >
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Jquery Theme-->
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Doppio+One&display=swap" rel="stylesheet">
+    
+</head>
+ <body class= "img-fluid max-width: 100%;">
+
+  <div class= "contaienr">
+
+    <div class="row d-flex">
+    <div class= "col-lg-12 logo">
+      <h1>
+        The 50 Largest Cities in the United States (2018)
+      </h1>
+
+      <div class= "pop_details">
+        <b>Population Filter: </b><span id= "range"></span><br /> </br >
+        <p><i>Adjust the slider to modify the list of cities to explore different population ranges</i></p>
+      </div>
+      
+
+      <div class= "slid_container">
+        <div id= "slider" ></div>
+      </div>
+    </div>
+  </div>
+
+    <div class= "row ">
+      <div class= "col-md-4" id= "output"></div>
+      <iframe class= "source col-md-8" src="https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population"></iframe>
+    </div>
+  </div>
+
+    <br />
+    <br />
+    <br />
+
+    
+    <footer class="d-flex w-100 sticky-footer-wrapper" style= "font-size: 20px; padding-left: 10px;">
+      <div class= "foot" style= "padding-left: 30px;">
+      <p>
+          <h6>Data Source</h6>
+          https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population
+      </p>
+    </div>
+    </footer>
+  
+    
+
+    <!--jQuery Code and UI CDN-->
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous">
+    </script>
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" 
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+          crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+            crossorigin="anonymous">
+    </script>
+
+    <script src="index.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--<script src="data.js"></script>-->
+
+</body>
+</html>

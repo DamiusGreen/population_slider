@@ -1,0 +1,79 @@
+﻿.logo h1 {
+    color: black;
+    text-shadow: 1px 1px 1px rgb(114, 114, 114);
+}
+
+#range {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 1px 1px 2px rgb(114, 114, 114);
+}
+
+th, tr:nth-child(odd)
+{
+    background: rgb(158, 158, 158);
+}
+
+th, tr:nth-child(even)
+{
+    background: rgb(186, 230, 250);
+}
+
+#slider.ui-slider {
+    width: 800px;
+    padding-left: 10px;
+    background: rgb(158, 158, 158);
+    box-shadow: 2px 3px 10px rgb(114, 114, 114);
+}
+
+.ui-slider .ui-slider-range {
+    background: rgb(186, 230, 250);
+}
+
+.slid_container {
+    padding-left: 10px;
+}
+
+.pop_details {
+    padding-left: 10px;
+}
+
+/*-----source site-----*/
+iframe:focus {
+    outline: none;
+  }
+  
+iframe[seamless] {
+    display: block;
+  }
+
+  .row {
+      padding-top: 10px;
+  }
+
+ 
+
+  html body { 
+    background: url(city1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .foot {
+    border: 1px  rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    background: url(foot1.jpg) no-repeat center center fixed;
+    box-shadow: 2px 2px 5px rgb(114, 114, 114);
+  }
